@@ -1,5 +1,6 @@
 package orchestra;
 
+import orchestra.sections.Brass;
 import orchestra.sections.Section;
 import orchestra.sections.Strings;
 import orchestra.sections.Woodwind;
@@ -14,6 +15,7 @@ public class Orchestra {
         this.sections = new ArrayList<>();
         this.sections.add(new Strings());
         this.sections.add(new Woodwind());
+        this.sections.add(new Brass());
     }
 
     private void print() {
